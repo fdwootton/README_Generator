@@ -30,8 +30,8 @@ const generateHTML = (response) =>
                 <p class="lead">${response.description}.</p>
                 <h3>Example heading <span class="badge badge-secondary">Contact Me</span></h3>
                 <ul class="list-group">
-                <li class="list-group-item">My GitHub username is ${answers.github}</li>
-                <li class="list-group-item">LinkedIn: ${answers.linkedin}</li>
+                <li class="list-group-item"></li>
+                <li class="list-group-item"></li>
                 </ul>
             </div>
         </div>
@@ -47,8 +47,8 @@ inquirer
         
         const HTML = generateHTML(response);
 
-        fs.writeFile('index.html', htmlPageContent, (err) =>
-          err ? console.log(err) : console.log('Successfully created index.html!')
+        fs.writeFile('README.md', HTML, (error) =>
+          error ? console.log(error) : console.log('New Readme created!')
         );
     
     })
