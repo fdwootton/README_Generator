@@ -19,7 +19,7 @@ const questions = [
     },
     {
         type: "input",
-        message: "Enter guidelines for the Usage section:",
+        message: "Enter instructions for usage:",
         name: "usage"
     },
     {
