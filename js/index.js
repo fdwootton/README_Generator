@@ -57,7 +57,7 @@ const questions = [
 
 const generateREADME = (response) =>
   `
-  <h1 align="center">${response.title}</h1>
+  #${response.title}
   
   ![badge](https://img.shields.io/badge/license-${response.license}-blue)<br />
   ## Description
