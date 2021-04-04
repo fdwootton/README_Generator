@@ -1,6 +1,5 @@
 
   # README.md Generator
-  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
   ## **Description**
   This application generates a README.md file for your project using Node.js.
