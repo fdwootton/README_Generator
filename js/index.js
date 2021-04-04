@@ -14,18 +14,18 @@ const questions = [
     },
     {
         type: "input",
-        message: "Enter the installation process for your project: ",
+        message: "Enter the installation process for your project:",
         name: "installation"
     },
     {
         type: "input",
-        message: "What is your project used for?",
+        message: "Enter guidelines for the Usage section:",
         name: "usage"
     },
     {
         type: "input",
-        message: "List the contributors of this projects:",
-        name: "contributors"
+        message: "Enter guidelines on how other developers can contribute to your project:",
+        name: "contributing"
     },
     {
         type: "input",
@@ -34,7 +34,7 @@ const questions = [
     },
     {
         type: "list",
-        message: "Choose a license for your project: ",
+        message: "Choose a license for your project:",
         choices: [
             "Apache",
             "GNU GPLv3",
@@ -58,7 +58,6 @@ const questions = [
 const generateREADME = (response) =>
   `
   # ${response.title}
-  
   ![badge](https://img.shields.io/badge/license-${response.license}-blue)<br />
   ## Description
   ${response.description}
@@ -67,7 +66,7 @@ const generateREADME = (response) =>
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
-  - [Contributors](#contributors)
+  - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
 
@@ -78,10 +77,11 @@ const generateREADME = (response) =>
   ${response.usage}
 
   ## License
+  This project is covered under the ${response.license} license
   ![badge](https://img.shields.io/badge/license-${response.license}-blue)
 
-  ## Contributors
-  ${response.contributors}
+  ## Contributing
+  ${response.contributing}
 
   ## Tests
   ${response.tests}
