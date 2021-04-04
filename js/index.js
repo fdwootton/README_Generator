@@ -58,7 +58,7 @@ const questions = [
 const generateREADME = (response) =>
   `
   # ${response.title}
-  ![badge](https://img.shields.io/badge/license-${response.license}-blue)<br />
+  ![badge](https://img.shields.io/badge/license-${response.license}-brightgreen)<br />
   ## Description
   ${response.description}
 
@@ -77,8 +77,9 @@ const generateREADME = (response) =>
   ${response.usage}
 
   ## License
+  ![badge](https://img.shields.io/badge/license-${response.license}-brightgreen)<br/>
   This project is covered under the ${response.license} license
-  ![badge](https://img.shields.io/badge/license-${response.license}-blue)
+  
 
   ## Contributing
   ${response.contributing}
