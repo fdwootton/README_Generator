@@ -19,10 +19,8 @@
   Easily create readme file for projects
 
   ## License
-  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)
+  ![badge](https://img.shields.io/badge/license-MIT-blue)
   <br />
-
-  MIT license
 
   ## Contributors
   none
