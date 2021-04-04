@@ -57,7 +57,7 @@ const questions = [
 
 const generateREADME = (response) =>
   `
-  #${response.title}
+  # ${response.title}
   
   ![badge](https://img.shields.io/badge/license-${response.license}-blue)<br />
   ## Description
@@ -78,10 +78,7 @@ const generateREADME = (response) =>
   ${response.usage}
 
   ## License
-  ![badge](https://img.shields.io/badge/license-${response.license}-brightgreen)
-  <br />
-
-  ${response.license} license
+  ![badge](https://img.shields.io/badge/license-${response.license}-blue)
 
   ## Contributors
   ${response.contributors}
@@ -90,8 +87,8 @@ const generateREADME = (response) =>
   ${response.tests}
 
   ## Questions
-  For additional questions, email me at [${response.email}](${response.email})
-  GitHub profile: [${response.username}](https://github.com/${response.username})
+  For additional questions, email me at [${response.email}](${response.email})<br/>
+  Visit my Github profile at [${response.username}](https://github.com/${response.username})
   `;
 
 
