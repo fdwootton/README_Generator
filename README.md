@@ -21,6 +21,6 @@
   This project is covered under the MIT license
 
   ## Questions
-  For additional questions, email me at [felicia.wootton@gmail.com](felicia.wootton@gmail.com)<br/>
+  For additional questions, email me at [mailto](mailto:felicia.wootton@gmail.com)<br/>
   Visit my Github profile at [fdwootton](https://github.com/fdwootton)
   
