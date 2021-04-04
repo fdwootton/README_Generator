@@ -59,10 +59,10 @@ const generateREADME = (response) =>
   `
   # ${response.title}
   ![badge](https://img.shields.io/badge/license-${response.license}-brightgreen)<br />
-  ## Description
+  ## **Description**
   ${response.description}
 
-  ## Table of Contents
+  ## **Table of Contents**
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
@@ -70,24 +70,24 @@ const generateREADME = (response) =>
   - [Tests](#tests)
   - [Questions](#questions)
 
-  ## Installation
+  ## **Installation**
   ${response.installation}
 
-  ## Usage
+  ## **Usage**
   ${response.usage}
 
-  ## License
+  ## **License**
   ![badge](https://img.shields.io/badge/license-${response.license}-brightgreen)<br/>
   This project is covered under the ${response.license} license
   
 
-  ## Contributing
+  ## **Contributing**
   ${response.contributing}
 
-  ## Tests
+  ## **Tests**
   ${response.tests}
 
-  ## Questions
+  ## **Questions**
   For additional questions, email me at [${response.email}](${response.email})<br/>
   Visit my Github profile at [${response.username}](https://github.com/${response.username})
   `;
