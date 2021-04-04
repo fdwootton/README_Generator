@@ -1,8 +1,9 @@
 
-  # adfasfds
-  ![badge](https://img.shields.io/badge/license-GNU-blue)<br />
+  # README.md Generator
+  ![badge](https://img.shields.io/badge/license-MIT-blue)<br />
+
   ## Description
-  asdfadf
+  This application generates a README.md file for your project using Node.js
 
   ## Table of Contents
   - [Installation](#installation)
@@ -13,20 +14,17 @@
   - [Questions](#questions)
 
   ## Installation
-  asdfadf
+  npm install inquirer
 
   ## Usage
-  asdfasdf
+  To use, clone repository to your local computer. Access the js file using your command line terminal. Once in the js file, enter "node ." into the command line and follow prompts.
 
   ## License
   This project is covered under the GNU license
   ![badge](https://img.shields.io/badge/license-GNU-blue)
 
   ## Contributing
-  adsfasdf
-
-  ## Tests
-  asdfasdf
+  There are no additional contributors to this project.
 
   ## Questions
   For additional questions, email me at [asdfasdf](asdfasdf)<br/>
