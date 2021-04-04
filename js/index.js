@@ -90,7 +90,7 @@ const generateREADME = (response) =>
   ${response.tests}
 
   ## Questions
-  For additional questions, email me at ${response.email}
+  For additional questions, email me at [${response.email}](${response.email})
   GitHub profile: [${response.username}](https://github.com/${response.username})
   `;
 
