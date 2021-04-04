@@ -37,7 +37,7 @@ const questions = [
         message: "Choose a license for your project:",
         choices: [
             "Apache",
-            "GNU GPLv3",
+            "GNU",
             "MIT",
             "ISC"
         ],
