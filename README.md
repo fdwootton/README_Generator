@@ -1,8 +1,9 @@
-# README.md Generator
+
+  # README.md Generator
   
-  ![badge](https://img.shields.io/badge/license-MIT-blue)<br />
+  ![badge](https://img.shields.io/badge/license-Apache-blue)<br />
   ## Description
-  Generates a markdown file using Node.js
+  Simple way to generate a README.md for your project by answering questions using Node.js
 
   ## Table of Contents
   - [Installation](#installation)
@@ -13,14 +14,13 @@
   - [Questions](#questions)
 
   ## Installation
-  npm install inquirer
+  npm intall inquirer
 
   ## Usage
-  Easily create readme file for projects
+  Generates markdown file
 
   ## License
-  ![badge](https://img.shields.io/badge/license-MIT-blue)
-  <br />
+  ![badge](https://img.shields.io/badge/license-Apache-blue)
 
   ## Contributors
   none
@@ -29,6 +29,6 @@
   none
 
   ## Questions
-  For additional questions, email me at [felicia.wootton@gmail.com](felicia.wootton@gmail.com)
-  GitHub profile: [fdwootton](https://github.com/fdwootton)
+  For additional questions, email me at [felicia.wootton@gmail.com](felicia.wootton@gmail.com)<br/>
+  Visit my Github profile at [fdwootton](https://github.com/fdwootton)
   
