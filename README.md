@@ -2,31 +2,27 @@
   # README.md Generator
   ![badge](https://img.shields.io/badge/license-MIT-blue)<br />
 
-  ## Description
-  This application generates a README.md file for your project using Node.js
+  ## **Description**
+  This application generates a README.md file for your project using Node.js.
 
-  ## Table of Contents
+  ## **Table of Contents**
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
   - [Contributing](#contributing)
-  - [Tests](#tests)
   - [Questions](#questions)
 
-  ## Installation
+  ## **Installation**
   npm install inquirer
 
-  ## Usage
-  To use, clone repository to your local computer. Access the js file using your command line terminal. Once in the js file, enter "node ." into the command line and follow prompts.
+  ## **Usage**
+  Clone this repository to your local computer. Access the js folder using your command line terminal. Once in the js folder, enter "node ." into the command line and follow prompts to generate a new README.md file.
 
-  ## License
-  This project is covered under the GNU license
-  ![badge](https://img.shields.io/badge/license-GNU-blue)
-
-  ## Contributing
-  There are no additional contributors to this project.
+  ## **License**
+  ![badge](https://img.shields.io/badge/license-GNU-blue)<br/>
+  This project is covered under the MIT license
 
   ## Questions
-  For additional questions, email me at [asdfasdf](asdfasdf)<br/>
-  Visit my Github profile at [asdfasfd](https://github.com/asdfasfd)
+  For additional questions, email me at [felicia.wootton@gmail.com](felicia.wootton@gmail.com)<br/>
+  Visit my Github profile at [fdwootton](https://github.com/fdwootton)
   
