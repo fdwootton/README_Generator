@@ -11,10 +11,12 @@
   - [Questions](#questions)
 
   ## **Installation**
-  npm install inquirer
+  Node.js and npm inquirer installation required
 
   ## **Usage**
   Clone or download this repository to your local computer. Access the js folder using your command line terminal. Once in the js folder, enter "node ." into the command line and follow prompts to generate a new README.md file.
+
+  <iframe src="https://drive.google.com/file/d/1wH8Fmt71HgOOyvFkg7WwznZ-PI5mfPLB/preview" width="640" height="480"></iframe>
 
   ## **License**
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br/>
